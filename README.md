@@ -14,4 +14,6 @@ Random Name Generator
         return our name
     set text tag's  text to our random name
 
-3. Remove a name:
+3. Remove a name: button
+    take in name input and get it's index within our name array
+    use .splice to remove that element
