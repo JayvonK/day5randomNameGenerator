@@ -28,6 +28,7 @@ removeBtn.addEventListener('click', function(){
     //can add third parameter in splice to add something
     nameArray.splice(index, 1);
     nameInput.value = "";
+    console.log(nameArray);
 
     localStorage.setItem("names", JSON.stringify(nameArray));
 });
